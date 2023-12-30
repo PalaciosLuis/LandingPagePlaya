@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo</title>
+    
+
+    <!-- SWIPER CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="menu container">
+
+            <a href="#" class="logo">Destino</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+
+                <ul>
+
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Reservaciones</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+
+
+            <div class="icons">
+                <i><box-icon type='logo' name='facebook'></box-icon></i>
+                <i><box-icon type='logo' name='twitter'></box-icon></i>
+                <i><box-icon type='logo' name='instagram'></box-icon></i>
+
+            </div>
+        </div>
+
+
+        <div class="header-content container">
+
+            <div class="header-txt">
+                <h1>Elige tu playa favorita</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In a porro pariatur, ducimus commodi esse
+                    tempore repellendus debitis odit, incidunt doloribus voluptatem quas unde quo quia consequatur sit
+                    maiores. Corporis?
+                </p>
+                <a href="" class="btn-1">Seccion menu</a>
+            </div>
+        </div>
+
+        <div class="images">
+
+            <div class="swiper mySwiper">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/1.jpg" alt="">
+                        <h3>Playa</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/2.jpg" alt="">
+                        <h3>Hotel</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/3.jpg" alt="">
+                        <h3>Naturaleza</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/4.jpg" alt="">
+                        <h3>Canoas</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/5.jpg" alt="">
+                        <h3>Lanchas</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="rows">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </header>
+
+
+
+
+</body>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./index.js"></script>
+
+</html>
